@@ -348,3 +348,12 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# SQLite database
+pizza.db
+
+# Build output
+bin/
+obj/
+pizza.db-shm
+pizza.db-wal
