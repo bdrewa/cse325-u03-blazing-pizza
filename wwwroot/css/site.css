@@ -1,4 +1,4 @@
-﻿@import url('font/quicksand.css');
+@import url('font/quicksand.css');
 
 body, html {
     height: 100%;
@@ -758,5 +758,5 @@ input[type=range] {
 }
 /* Keep the footer visible at the bottom of the page */
 #app { height: 100%; display: flex; flex-direction: column; }
-#app > .content { flex: 1; min-height: 0; height: auto; }
+#app > .content { flex: 1; min-height: 0; height: auto; overflow: hidden; }
 footer { padding: 0.5rem 1.5rem; background-color: #2b2b2b; color: #fff2cc; text-align: center; }
